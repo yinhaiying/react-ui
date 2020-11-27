@@ -1,1 +1,4 @@
-console.log("实现一个UI组件库111222");
+import React from "react";
+import ReactDOM from "react-dom";
+console.log("React:",React);
+console.log("React:",ReactDOM);
