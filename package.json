@@ -1,0 +1,8 @@
+{
+  "name": "react-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yinhaiying/react-ui.git",
+  "author": "'yinhaiying' <'18840842571@163.com'>",
+  "license": "MIT"
+}
