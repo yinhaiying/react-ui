@@ -2,9 +2,12 @@
   "compilerOptions": {
     "declaration": true,
     "baseUrl": ".",
-    "module": "esnext",
+    "module": "amd",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "sourceMap": true,
     "jsx": "react",
     "moduleResolution": "node",
@@ -20,8 +23,7 @@
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true
   },
-  "include": [
-  ],
+  "include": [],
   "exclude": [
     "node_modules",
     "build",
