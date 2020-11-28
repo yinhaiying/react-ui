@@ -1,13 +1,14 @@
 {
   "name": "react-ui",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index",
   "repository": "https://github.com/yinhaiying/react-ui.git",
   "author": "'yinhaiying' <'18840842571@163.com'>",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.dev.js",
-    "build": "cross-end NODE_ENV=productin webpack --config webpack.config.prod.js"
+    "build": "cross-env NODE_ENV=productin webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",

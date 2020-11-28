@@ -12,6 +12,9 @@ module.exports = {
       library:"sea-ui",
       libraryTarget:"umd"//  库最终导出的模块格式。umd是amd和cmd的兼容处理
     },
+    resolve:{
+      "extensions":[".tsx",".ts",".jsx",".js"]
+    },
     module:{
         rules:[
             {
@@ -20,6 +23,7 @@ module.exports = {
             }
         ]
     },
+
     // plugins:[
     //     new HtmlWebpackPlugin({
     //         title:"sea-ui",

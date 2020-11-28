@@ -1,8 +1,8 @@
-
-function Button(){
-    return (
-        <button>按钮</button>
-    )
+import React from "react"
+function Button() {
+  return (
+    <button>按钮</button>
+  )
 }
 
 export default Button;
