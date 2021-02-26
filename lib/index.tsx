@@ -1,5 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import * as  React from "react";
+import * as ReactDOM from "react-dom";
 import Button from "./button";
-
-ReactDOM.render(<Button></Button>, document.body);
+console.log("ReactDOM:",ReactDOM)
+console.log("React:", React)
+ReactDOM.render(<Button />, document.getElementById("app"));
